@@ -1,33 +1,27 @@
 {
-  "name": "project",
-  "tree": 
-  {
+  "name": "CODE-PRACTICE",
+  "tree": {
     "$className": "DataModel",
-    "ReplicatedStorage": 
-    {
-      "$className": "ReplicatedStorage",
-      "$ignoreUnknownInstances": true,
-      "$path": "src/ReplicatedStorage"
+
+    "ReplicatedStorage": {
+      "Script": {
+        "$path": "src/shared"
+      }
+
     },
+
     "ServerScriptService": {
-      "$className": "ServerScriptService",
-      "$ignoreUnknownInstances": true,
-      "$path": "src/ServerScriptService"
+      "Server": {
+      "$path": "src/server"
+      }
     },
-    "ServerStorage": {
-      "$className": "ServerStorage",
-      "$ignoreUnknownInstances": true,
-      "$path": "src/ServerStorage"
-    },
-    "StarterPlayer": 
-    {
-      "$className": "StarterPlayer",
+
+    "StarterPlayer": {
       "StarterPlayerScripts": {
-        "$className": "StarterPlayerScripts",
-        "$ignoreUnknownInstances": true,
-        "$path": "src/StarterPlayer/StarterPlayerScripts"
-      },
-      "$ignoreUnknownInstances": true
+        "Client": {
+          "$path": "src/client"
+        }
+      }
     }
   }
 }
